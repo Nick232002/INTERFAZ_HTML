@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTRO DE USUARIO</title>
+    </head>
+    <body background ="https://msmassalud.com.mx/wp-content/uploads/2024/01/1-slider%20home%20nievo%20grande.jpg" text="#000000">
+        <h1 align="center">REGISTRO SISTEMA</h1>
+        <hr width="85%" size="3" color="black">
+        <font size="6">
+            <p align="center"> Hola para registro en el sistema complete el siguiente formulario</p>
+            <p align="center"> Los Campos con * son obligatorios</p>
+            <form action="mailto:prueba" method="get">
+                <table align="center">
+                    <tr>
+                        <td>Ingrese su documento*</td>
+                        <td>: <input title="Numero de identificacion" type="numero" name="cedula" min=6 max=15 size=30 required/></td>
+                        <td>
+                            <select name="Tipo de Documento" size="1">
+                            <option value="TI">T.I</option>
+                            <option value="CC">C.C</option>
+                            <option value="CE">C.E</option>
+                            <option value="PEP">P.E.P</option>
+                            </select>
+                        </td>            
+                        </tr>
+                        <tr>
+                            <td>Ingrese su Nombre*</td>
+                            <td>:<input title="Nombre" type="text" name="nombre" min=1 max=60 size=30 required/><br></td>
+                        </tr>
+                        <tr>
+                            <td>Ingrese sus Apellidos*</td>
+                            <td>:<input title="Apellidos" type="text" name="apellidos" min=1 max=60 size=30 required/><br></td>
+                        </tr>
+                        <tr>
+                            <td>Ingrese su Correo electronico*</td>
+                            <td>:<input title="correo" type="email" name="correo" min=1 max=60 size=30 required/><br></td>
+                        </tr>
+                        <tr>
+                            <td>Ingrese su numero de telefono*</td>
+                            <td>:<input title="telefono" type="text" name="telefono" min=1 max=60 size=30 required/><br></td>
+                        </tr>
+                        <tr>
+                            <td>Ingrese su direccion*</td>
+                            <td>:<input title="direccion" type="text" name="direcciojn" min=1 max=60 size=30 required/><br></td>
+                        </tr>
+                        <td>Ingrese su EPS*</td>
+                            <td required/>
+                                <Select name="EPS" size="1">
+                                    <option value="EPS 1">Nueva EPS</option>
+                                    <option value="EPS 2">Salud Total</option>
+                                    <option value="EPS 3">EPS Sura</option>
+                                    <option value="EPS 4">EPS Sanitas</option>
+                                    <option value="EPS 5">Capital Salud</option>
+                                </Select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ingrese su Contraseña*</td>
+                            <td>:<input title="Contraseña" type="password" name="Contraseña" min=1 max=60 size=30 required/><br></td>
+                        </tr>
+                        <tr>
+                            <td>Confirme su contraseña*</td>
+                            <td>:<input title="Contraseña" type="password" name="Contraseña" min=1 max=60 size=30 required/><br></td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <input type="submit" value="Enviar">
+                                <input type="reset" value="Restablecer">
+                            </td>
+                        </tr>
+                </table>
+            </form>
+        </font>    
+    </body>
+</html>
